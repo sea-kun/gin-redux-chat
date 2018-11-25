@@ -1,0 +1,6 @@
+package: github.com/sea-kun/dev_re-chat-app_by_gin_react_redux
+import:
+- package: github.com/gin-gonic/gin
+- package: github.com/go-sql-driver/mysql
+  subpackages:
+  - server/util

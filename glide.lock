@@ -1,0 +1,138 @@
+hash: 0871dd112f65f297219783c3573be49b0cb6920ec5b5339a338c9803add1ec88
+updated: 2018-11-26T03:13:30.194423+09:00
+imports:
+- name: github.com/campoy/embedmd
+  version: c59ce00e02967db5e93d897330142a3ef6145786
+  subpackages:
+  - embedmd
+- name: github.com/client9/misspell
+  version: c0b55c8239520f6b5aa15a0207ca8b28027ba49e
+  subpackages:
+  - cmd/misspell
+- name: github.com/dustin/go-broadcast
+  version: f664265f5a662fb4d1df7f3533b1e8d0e0277120
+- name: github.com/gin-contrib/sse
+  version: 22d885f9ecc78bf4ee5d72b937e4bbcdc58e8cae
+- name: github.com/gin-gonic/autotls
+  version: be87bd5ef97b7398e468c35ad266aabf099a095b
+- name: github.com/gin-gonic/gin
+  version: 465ead47d0f40a24b067798f5bab1c263f09660d
+  subpackages:
+  - binding
+  - internal/json
+  - render
+- name: github.com/go-sql-driver/mysql
+  version: 6be42e0ff99645d7d9626d779001a46e39c5f280
+  subpackages:
+  - server/util
+- name: github.com/golang/protobuf
+  version: 882cf97a83ad205fd22af574246a3bc647d7a7d2
+  subpackages:
+  - proto
+  - ptypes
+  - ptypes/any
+  - ptypes/duration
+  - ptypes/timestamp
+- name: github.com/jessevdk/go-assets
+  version: 4f4301a06e153ff90e17793577ab6bf79f8dc5c5
+- name: github.com/json-iterator/go
+  version: d05f387f50c0c406889b62cb5ec51c76a64d89ee
+- name: github.com/manucorporat/stats
+  version: 3ba42d56d227cf2a6086b63baba5e00669235853
+- name: github.com/mattn/go-isatty
+  version: 3fb116b820352b7f0c281308a4d6250c22d94e27
+- name: github.com/modern-go/concurrent
+  version: bacd9c7ef1dd9b15be4a9909b8ac7a4e313eec94
+- name: github.com/modern-go/reflect2
+  version: 94122c33edd36123c84d5368cfb2b69df93a0ec8
+- name: github.com/pmezard/go-difflib
+  version: 792786c7400a136282c1664665ae0a8db921c6c2
+  subpackages:
+  - difflib
+- name: github.com/thinkerou/favicon
+  version: 94a442a49da6e2d44bdd5e0d2e2e185c43a19d93
+- name: github.com/ugorji/go
+  version: 66da5d561eb74c77386d9242d97d91d8672b1388
+  subpackages:
+  - codec
+- name: golang.org/x/crypto
+  version: 3d3f9f413869b949e48070b5bc593aa22cc2b8f2
+  subpackages:
+  - acme
+  - acme/autocert
+- name: golang.org/x/lint
+  version: c67002cb31c3a748b7688c27f20d8358b4193582
+  subpackages:
+  - golint
+- name: golang.org/x/net
+  version: adae6a3d119ae4890b46832a2e88a95adc62b8e7
+  subpackages:
+  - http/httpguts
+  - http2
+  - http2/hpack
+  - idna
+  - internal/timeseries
+  - trace
+- name: golang.org/x/sys
+  version: 62eef0e2fa9b2c385f7b2778e763486da6880d37
+  subpackages:
+  - unix
+- name: golang.org/x/text
+  version: 6f44c5a2ea40ee3593d98cdcc905cc1fdaa660e2
+  subpackages:
+  - secure/bidirule
+  - transform
+  - unicode/bidi
+  - unicode/norm
+- name: golang.org/x/tools
+  version: 04b5d21e00f1f47bd824a6ade581e7189bacde87
+  subpackages:
+  - go/ast/astutil
+  - go/gcexportdata
+  - go/internal/gcimporter
+- name: google.golang.org/appengine
+  version: 4a4468ece617fc8205e99368fa2200e9d1fad421
+  subpackages:
+  - cloudsql
+- name: google.golang.org/genproto
+  version: b5d43981345bdb2c233eb4bf3277847b48c6fdc6
+  subpackages:
+  - googleapis/rpc/status
+- name: google.golang.org/grpc
+  version: ef2b8e2f53fcd6654d12966394462f84e0f04066
+  subpackages:
+  - balancer
+  - balancer/base
+  - balancer/roundrobin
+  - binarylog/grpc_binarylog_v1
+  - codes
+  - connectivity
+  - credentials
+  - credentials/internal
+  - encoding
+  - encoding/proto
+  - grpclog
+  - internal
+  - internal/backoff
+  - internal/binarylog
+  - internal/channelz
+  - internal/envconfig
+  - internal/grpcrand
+  - internal/grpcsync
+  - internal/syscall
+  - internal/transport
+  - keepalive
+  - metadata
+  - naming
+  - peer
+  - resolver
+  - resolver/dns
+  - resolver/passthrough
+  - stats
+  - status
+  - tap
+- name: gopkg.in/go-playground/validator.v8
+  version: 5f1438d3fca68893a817e4a66806cea46a9e4ebf
+- name: gopkg.in/yaml.v2
+  version: 5420a8b6744d3b0345ab293f6fcba19c978f1183
+testImports: []
