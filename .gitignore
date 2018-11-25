@@ -1,2 +1,5 @@
-# vendor
+# glide
 vendor
+
+# npm
+node_modules
