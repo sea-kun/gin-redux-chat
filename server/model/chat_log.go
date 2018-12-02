@@ -8,10 +8,10 @@ import (
 )
 
 type ResChatLog struct {
-	ID        int       `json:id`
-	User      string    `json:user`
-	Comment   string    `json:comment`
-	CreatedAt time.Time `json:created_at`
+	ID        int       `json:"id"`
+	User      string    `json:"user"`
+	Comment   string    `json:"comment"`
+	CreatedAt time.Time `json:"created_at"`
 }
 
 func GetChatLog(db *sql.DB) ([]*ResChatLog, error) {
