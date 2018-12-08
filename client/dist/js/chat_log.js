@@ -86,6 +86,7 @@
 /************************************************************************/
 /******/ ({
 
+<<<<<<< HEAD
 /***/ "./client/src/css/chatLogs.css":
 /*!*************************************!*\
   !*** ./client/src/css/chatLogs.css ***!
@@ -97,6 +98,8 @@ eval("\nvar content = __webpack_require__(/*! !../../../node_modules/css-loader?
 
 /***/ }),
 
+=======
+>>>>>>> 4c609341dbe6981cc64e4bb5c24687fec58e12a9
 /***/ "./client/src/jsx/actions/actionCreators/chatLogs.js":
 /*!***********************************************************!*\
   !*** ./client/src/jsx/actions/actionCreators/chatLogs.js ***!
@@ -141,7 +144,11 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var reac
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
+<<<<<<< HEAD
 eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _css_chatLogs_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../css/chatLogs.css */ \"./client/src/css/chatLogs.css\");\n/* harmony import */ var _css_chatLogs_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_css_chatLogs_css__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! reactstrap */ \"./node_modules/reactstrap/dist/reactstrap.es.js\");\nfunction _typeof(obj) { if (typeof Symbol === \"function\" && typeof Symbol.iterator === \"symbol\") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === \"function\" && obj.constructor === Symbol && obj !== Symbol.prototype ? \"symbol\" : typeof obj; }; } return _typeof(obj); }\n\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }\n\nfunction _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }\n\nfunction _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === \"object\" || typeof call === \"function\")) { return call; } return _assertThisInitialized(self); }\n\nfunction _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError(\"this hasn't been initialised - super() hasn't been called\"); } return self; }\n\nfunction _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }\n\nfunction _inherits(subClass, superClass) { if (typeof superClass !== \"function\" && superClass !== null) { throw new TypeError(\"Super expression must either be null or a function\"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }\n\nfunction _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }\n\n\n\n\n\nvar ChatlogsList =\n/*#__PURE__*/\nfunction (_React$Component) {\n  _inherits(ChatlogsList, _React$Component);\n\n  function ChatlogsList() {\n    _classCallCheck(this, ChatlogsList);\n\n    return _possibleConstructorReturn(this, _getPrototypeOf(ChatlogsList).apply(this, arguments));\n  }\n\n  _createClass(ChatlogsList, [{\n    key: \"componentDidMount\",\n    value: function componentDidMount() {\n      this.props.fetchChatlogs('http://localhost:8080/chatLog/');\n    }\n  }, {\n    key: \"render\",\n    value: function render() {\n      if (this.props.hasError) {\n        return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"p\", null, \"error\");\n      }\n\n      if (this.props.isLoading) {\n        return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"p\", null, \"loading\");\n      }\n\n      console.log(this.props.chatLogs);\n      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"ul\", null, this.props.chatLogs.map(function (item) {\n        return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"li\", {\n          className: _css_chatLogs_css__WEBPACK_IMPORTED_MODULE_1___default.a.hoge,\n          key: item.id\n        }, item.comment);\n      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_2__[\"Button\"], {\n        color: \"primary\"\n      }, \"Primary\"));\n    }\n  }]);\n\n  return ChatlogsList;\n}(react__WEBPACK_IMPORTED_MODULE_0___default.a.Component);\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (ChatlogsList);\n\n//# sourceURL=webpack:///./client/src/jsx/components/ChatlogsList.jsx?");
+=======
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\nfunction _typeof(obj) { if (typeof Symbol === \"function\" && typeof Symbol.iterator === \"symbol\") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === \"function\" && obj.constructor === Symbol && obj !== Symbol.prototype ? \"symbol\" : typeof obj; }; } return _typeof(obj); }\n\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }\n\nfunction _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }\n\nfunction _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === \"object\" || typeof call === \"function\")) { return call; } return _assertThisInitialized(self); }\n\nfunction _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError(\"this hasn't been initialised - super() hasn't been called\"); } return self; }\n\nfunction _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }\n\nfunction _inherits(subClass, superClass) { if (typeof superClass !== \"function\" && superClass !== null) { throw new TypeError(\"Super expression must either be null or a function\"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }\n\nfunction _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }\n\n\n\nvar ChatlogsList =\n/*#__PURE__*/\nfunction (_React$Component) {\n  _inherits(ChatlogsList, _React$Component);\n\n  function ChatlogsList() {\n    _classCallCheck(this, ChatlogsList);\n\n    return _possibleConstructorReturn(this, _getPrototypeOf(ChatlogsList).apply(this, arguments));\n  }\n\n  _createClass(ChatlogsList, [{\n    key: \"componentDidMount\",\n    value: function componentDidMount() {\n      this.props.fetchChatlogs('http://localhost:8080/chatLog/');\n    }\n  }, {\n    key: \"render\",\n    value: function render() {\n      if (this.props.hasError) {\n        return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"p\", null, \"error\");\n      }\n\n      if (this.props.isLoading) {\n        return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"p\", null, \"loading\");\n      }\n\n      console.log(this.props.chatLogs);\n      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"ul\", null, this.props.chatLogs.map(function (item) {\n        return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"li\", {\n          key: item.id\n        }, item.comment);\n      }));\n    }\n  }]);\n\n  return ChatlogsList;\n}(react__WEBPACK_IMPORTED_MODULE_0___default.a.Component);\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (ChatlogsList);\n\n//# sourceURL=webpack:///./client/src/jsx/components/ChatlogsList.jsx?");
+>>>>>>> 4c609341dbe6981cc64e4bb5c24687fec58e12a9
 
 /***/ }),
 
@@ -165,7 +172,11 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var reac
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
+<<<<<<< HEAD
 eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-dom */ \"./node_modules/react-dom/index.js\");\n/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_dom__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _style_loader_css_loader_bootstrap_dist_css_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! style-loader!css-loader!bootstrap/dist/css/bootstrap.min.css */ \"./node_modules/style-loader/index.js!./node_modules/css-loader/index.js!./node_modules/bootstrap/dist/css/bootstrap.min.css\");\n/* harmony import */ var _style_loader_css_loader_bootstrap_dist_css_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_style_loader_css_loader_bootstrap_dist_css_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var _components_App__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./components/App */ \"./client/src/jsx/components/App.jsx\");\n\n\n\n\nObject(react_dom__WEBPACK_IMPORTED_MODULE_1__[\"render\"])(react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_App__WEBPACK_IMPORTED_MODULE_3__[\"default\"], null), document.getElementById('root'));\n\n//# sourceURL=webpack:///./client/src/jsx/index.jsx?");
+=======
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-dom */ \"./node_modules/react-dom/index.js\");\n/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_dom__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _components_App__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./components/App */ \"./client/src/jsx/components/App.jsx\");\n\n\n\nObject(react_dom__WEBPACK_IMPORTED_MODULE_1__[\"render\"])(react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_App__WEBPACK_IMPORTED_MODULE_2__[\"default\"], null), document.getElementById('root'));\n\n//# sourceURL=webpack:///./client/src/jsx/index.jsx?");
+>>>>>>> 4c609341dbe6981cc64e4bb5c24687fec58e12a9
 
 /***/ }),
 
@@ -253,6 +264,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) *
 
 /***/ }),
 
+<<<<<<< HEAD
 /***/ "./node_modules/classnames/index.js":
 /*!******************************************!*\
   !*** ./node_modules/classnames/index.js ***!
@@ -297,6 +309,8 @@ eval("/*\n\tMIT License http://www.opensource.org/licenses/mit-license.php\n\tAu
 
 /***/ }),
 
+=======
+>>>>>>> 4c609341dbe6981cc64e4bb5c24687fec58e12a9
 /***/ "./node_modules/hoist-non-react-statics/dist/hoist-non-react-statics.cjs.js":
 /*!**********************************************************************************!*\
   !*** ./node_modules/hoist-non-react-statics/dist/hoist-non-react-statics.cjs.js ***!
@@ -321,6 +335,7 @@ eval("/**\n * Copyright (c) 2013-present, Facebook, Inc.\n *\n * This source cod
 
 /***/ }),
 
+<<<<<<< HEAD
 /***/ "./node_modules/lodash.isfunction/index.js":
 /*!*************************************************!*\
   !*** ./node_modules/lodash.isfunction/index.js ***!
@@ -354,6 +369,8 @@ eval("/**\n * lodash (Custom Build) <https://lodash.com/>\n * Build: `lodash mod
 
 /***/ }),
 
+=======
+>>>>>>> 4c609341dbe6981cc64e4bb5c24687fec58e12a9
 /***/ "./node_modules/object-assign/index.js":
 /*!*********************************************!*\
   !*** ./node_modules/object-assign/index.js ***!
@@ -366,6 +383,7 @@ eval("/*\nobject-assign\n(c) Sindre Sorhus\n@license MIT\n*/\n\n\n/* eslint-disa
 
 /***/ }),
 
+<<<<<<< HEAD
 /***/ "./node_modules/popper.js/dist/esm/popper.js":
 /*!***************************************************!*\
   !*** ./node_modules/popper.js/dist/esm/popper.js ***!
@@ -378,6 +396,8 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* WEBPACK VAR INJECTION */(f
 
 /***/ }),
 
+=======
+>>>>>>> 4c609341dbe6981cc64e4bb5c24687fec58e12a9
 /***/ "./node_modules/prop-types/checkPropTypes.js":
 /*!***************************************************!*\
   !*** ./node_modules/prop-types/checkPropTypes.js ***!
@@ -473,6 +493,7 @@ eval("\n\nif (false) {} else {\n  module.exports = __webpack_require__(/*! ./cjs
 
 /***/ }),
 
+<<<<<<< HEAD
 /***/ "./node_modules/react-lifecycles-compat/react-lifecycles-compat.es.js":
 /*!****************************************************************************!*\
   !*** ./node_modules/react-lifecycles-compat/react-lifecycles-compat.es.js ***!
@@ -545,6 +566,8 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _Man
 
 /***/ }),
 
+=======
+>>>>>>> 4c609341dbe6981cc64e4bb5c24687fec58e12a9
 /***/ "./node_modules/react-redux/es/components/Provider.js":
 /*!************************************************************!*\
   !*** ./node_modules/react-redux/es/components/Provider.js ***!
@@ -761,6 +784,7 @@ eval("\n\nif (false) {} else {\n  module.exports = __webpack_require__(/*! ./cjs
 
 /***/ }),
 
+<<<<<<< HEAD
 /***/ "./node_modules/reactstrap/dist/reactstrap.es.js":
 /*!*******************************************************!*\
   !*** ./node_modules/reactstrap/dist/reactstrap.es.js ***!
@@ -773,6 +797,8 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) *
 
 /***/ }),
 
+=======
+>>>>>>> 4c609341dbe6981cc64e4bb5c24687fec58e12a9
 /***/ "./node_modules/redux-thunk/es/index.js":
 /*!**********************************************!*\
   !*** ./node_modules/redux-thunk/es/index.js ***!
@@ -845,6 +871,7 @@ eval("\n\nif (false) {} else {\n  module.exports = __webpack_require__(/*! ./cjs
 
 /***/ }),
 
+<<<<<<< HEAD
 /***/ "./node_modules/style-loader/index.js!./node_modules/css-loader/index.js!./node_modules/bootstrap/dist/css/bootstrap.min.css":
 /*!*****************************************************************************************************************!*\
   !*** ./node_modules/style-loader!./node_modules/css-loader!./node_modules/bootstrap/dist/css/bootstrap.min.css ***!
@@ -878,6 +905,8 @@ eval("\n/**\n * When source maps are enabled, `style-loader` uses a link element
 
 /***/ }),
 
+=======
+>>>>>>> 4c609341dbe6981cc64e4bb5c24687fec58e12a9
 /***/ "./node_modules/symbol-observable/es/index.js":
 /*!****************************************************!*\
   !*** ./node_modules/symbol-observable/es/index.js ***!
