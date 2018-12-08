@@ -3,3 +3,6 @@ vendor
 
 # npm
 node_modules
+
+# webpackfile
+dist/js
